@@ -1,0 +1,9 @@
+venv/
+finance.db
+__pycache__/
+*.pyc
+dist/
+build/
+*.spec
+.env
+verificar_db.py
