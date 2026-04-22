@@ -42,43 +42,40 @@ Sistema desktop de controle financeiro pessoal desenvolvido em Python com interf
 ---
 
 ## 📁 Estrutura do Projeto
-Controle_financeiro/
-├── main.py              ← ponto de entrada
-├── requirements.txt     ← dependências
-├── .gitignore
-├── database/
-│   └── db.py            ← conexão com SQLite
-├── models/
-│   └── transacao.py     ← CRUD e regras de negócio
-└── ui/
-├── main_window.py   ← interface gráfica principal
-└── splash_screen.py ← tela de carregamento
+
+    Controle_financeiro/
+    ├── main.py              ← ponto de entrada
+    ├── requirements.txt     ← dependências
+    ├── .gitignore
+    ├── database/
+    │   └── db.py            ← conexão com SQLite
+    ├── models/
+    │   └── transacao.py     ← CRUD e regras de negócio
+    └── ui/
+        ├── main_window.py   ← interface gráfica principal
+        └── splash_screen.py ← tela de carregamento
 
 ---
 
 ## 🚀 Como Executar
 
 **1. Clone o repositório**
-```bash
-git clone https://github.com/franciscolourencao2007/controle-financeiro.git
-cd controle-financeiro
-```
+
+    git clone https://github.com/franciscolourencao2007/controle-financeiro.git
+    cd controle-financeiro
 
 **2. Crie e ative o ambiente virtual**
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
+
+    python -m venv venv
+    venv\Scripts\activate
 
 **3. Instale as dependências**
-```bash
-pip install -r requirements.txt
-```
+
+    pip install -r requirements.txt
 
 **4. Execute o sistema**
-```bash
-python main.py
-```
+
+    python main.py
 
 ---
 
